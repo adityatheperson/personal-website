@@ -6,7 +6,7 @@ Static portfolio site, published with GitHub Pages. No build step: plain HTML + 
 
 - `index.html` — the site (Intro, About, Experience, Research, Projects, Toolbox, Contact)
 - `assets/css/style.css`, `assets/js/main.js` — styling and interaction
-- `assets/` — resume PDF, IEEE paper PDF, portrait and about photos
+- `assets/` — IEEE paper PDF, portrait and about photos
 - `variants/` — earlier design explorations (harbor, ledger, arcade, fusion)
 - `PRODUCT.md`, `.impeccable/` — product notes and design-process records
 

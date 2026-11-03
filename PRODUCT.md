@@ -38,7 +38,7 @@ Standing preference (recorded after direction round 2): the category standard. T
 
 ## Evidence on Hand
 
-- Resume PDF at `assets/Aditya-Kumar-Resume.pdf`.
+- Resume withheld from the public site per user request (Nov 2026).
 - GitHub profile `github.com/adityatheperson` (21 public repos); featured repos with verified READMEs: `nbapredictor`, `lorasummarizer`, `ZoomRecorder`, `imposter`, `Nextup`, `ZotMacros`.
 - Paper PDF at `assets/Aditya-Kumar-ASL-Paper-ICCE-2025.pdf`, linked from the Research section.
 - No testimonials, headshots beyond the GitHub avatar, or custom illustrations; demonstration content must be authored, factual claims must not be invented.
