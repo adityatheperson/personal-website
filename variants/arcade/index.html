@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aditya Kumar — I build local-first AI</title>
+  <meta name="description" content="Aditya Kumar, CS at UC Irvine and first author of an IEEE ICCE 2025 paper. Local-first ML, on-device apps, and Android software." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23FF5C38'/><text x='50' y='68' font-size='52' text-anchor='middle' font-family='system-ui' font-weight='900' fill='white'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <nav aria-label="Primary">
+      <a class="face" href="#top" aria-label="Aditya Kumar, back to top">
+        <img src="https://avatars.githubusercontent.com/u/44348836?v=4" alt="" width="36" height="36" />
+        <span>Aditya Kumar</span>
+      </a>
+      <span class="head-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="../../assets/Aditya-Kumar-Resume.pdf" download class="pill">Resume</a>
+        <button id="themeBtn" type="button" aria-label="Toggle color theme">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </span>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="hero-text">
+        <p class="hello">Hello, I'm Aditya</p>
+        <h1>I build <span class="hl hl-orange">local-first AI</span> that runs on <span class="hl hl-blue">your device</span>.</h1>
+        <p class="lede">CS at UC Irvine · First author, IEEE ICCE 2025, on video-based ASL translation · Currently into QLoRA fine-tuning, on-device transcription, and Android apps.</p>
+        <div class="hero-cta">
+          <a class="btn-solid" href="#projects">See the work</a>
+          <a class="btn-soft" href="mailto:adithya.ak@gmail.com">adithya.ak@gmail.com</a>
+        </div>
+      </div>
+      <div class="hero-badge" aria-hidden="true">
+        <svg viewBox="0 0 120 120" width="132" height="132">
+          <defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0" /></defs>
+          <circle cx="60" cy="60" r="58" class="badge-disc" />
+          <circle cx="60" cy="60" r="30" class="badge-core" />
+          <text class="badge-text"><textPath href="#circ">OPEN TO INTERNSHIPS · OPEN TO INTERNSHIPS · </textPath></text>
+        </svg>
+      </div>
+    </section>
+
+    <section id="projects" aria-label="Projects">
+      <h2>Selected work</h2>
+      <ol class="sticker-list">
+        <li class="sticker s-orange">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/nbapredictor" target="_blank" rel="noopener">NBA Predictor</a></h3>
+            <p>Per-player points, team totals, win probability — trained on <strong>1.3M games since 1970</strong>. Scoring MAE <strong>4.52</strong> on 196k held-out games.</p>
+          </div>
+          <p class="meta">Python · LightGBM · Streamlit</p>
+        </li>
+        <li class="sticker s-blue">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/lorasummarizer" target="_blank" rel="noopener">Local LoRA Summarizer</a></h3>
+            <p>QLoRA adapter on 4-bit Qwen3-4B with Apple MLX, fully on-device. 300 iterations, 24 pipeline tests, local eval UI — ROUGE-L F1 <strong>0.4614 → 0.5357</strong> on 3 synthetic held-out examples (a pipeline test).</p>
+          </div>
+          <p class="meta">MLX · QLoRA · ROUGE</p>
+        </li>
+        <li class="sticker s-green">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/ZoomRecorder" target="_blank" rel="noopener">Zoom Recorder</a></h3>
+            <p>Windows app recording Zoom classes by course with <strong>offline</strong> Whisper transcription — Vulkan GPU worker, CPU fallback, scheduled joining.</p>
+          </div>
+          <p class="meta">C# · WinUI 3 · Whisper</p>
+        </li>
+        <li class="sticker s-purple">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/imposter" target="_blank" rel="noopener">Imposter</a></h3>
+            <p>Offline Android party game, 3–12 players, 300 prompts, screenshot-protected reveals. No accounts, ads, or network permission.</p>
+          </div>
+          <p class="meta">Kotlin · Jetpack Compose</p>
+        </li>
+        <li class="sticker s-yellow">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/Nextup" target="_blank" rel="noopener">NextUp</a></h3>
+            <p>Quiet Android notification for upcoming synced calendar events. Silent, lock-screen-safe, reboot-persistent.</p>
+          </div>
+          <p class="meta">Kotlin · Android</p>
+        </li>
+        <li class="sticker s-pink">
+          <div>
+            <h3><a href="https://github.com/adityatheperson/ZotMacros" target="_blank" rel="noopener">ZotMacros</a></h3>
+            <p>Personal macros for the UCI workflow. Active work-in-progress.</p>
+          </div>
+          <p class="meta">Automation · WIP</p>
+        </li>
+      </ol>
+      <p class="more"><a href="https://github.com/adityatheperson?tab=repositories" target="_blank" rel="noopener">Browse all 21 repos</a></p>
+    </section>
+
+    <section id="about" aria-label="About">
+      <h2>About</h2>
+      <p>I'm a UC Irvine Computer Science student who likes taking ML systems all the way from data prep to a thing people can actually run. My research with the Aspiring Scholars Directed Research Program (ASDRP) built a <strong>video-based American Sign Language to English translation system</strong> in Python — published as first author in the <strong>2025 IEEE International Conference on Consumer Electronics (ICCE)</strong> proceedings.</p>
+      <p>Since then I've focused on <strong>local-first AI</strong>: fine-tuning a 4-bit Qwen3-4B model with QLoRA on Apple MLX with a side-by-side evaluation UI, and shipping a Windows app that records Zoom classes and transcribes them offline with Whisper. At <strong>Leopard Imaging</strong> I prototyped stereo-camera depth estimation for real-time image processing; at <strong>Penumbra</strong> I supported endpoint deployment and troubleshooting at a medical-device company.</p>
+    </section>
+
+    <section id="experience" aria-label="Experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">Jun 2026 – Aug 2026</p>
+          <h3>Information Technology Intern · Penumbra, Inc.</h3>
+          <p>Endpoint hardware deployment, enterprise software, and troubleshooting at a medical-device company.</p>
+        </li>
+        <li>
+          <p class="when">May 2025 – Aug 2025</p>
+          <h3>Engineering Intern · Leopard Imaging</h3>
+          <p>Python scripts for AI camera systems; stereo-camera depth-estimation prototype from requirements to documented design.</p>
+        </li>
+        <li>
+          <p class="when">Aug 2023 – Jan 2025</p>
+          <h3>Lead Author, CV &amp; HCI Research · ASDRP</h3>
+          <p>Video-based ASL-to-English system; first author, IEEE ICCE 2025 proceedings; presented to technical audiences.</p>
+        </li>
+      </ol>
+      <p class="edu">B.S., Computer Science, UC Irvine — expected Jan 2030.</p>
+    </section>
+
+    <section aria-label="Skills">
+      <h2>Toolbox</h2>
+      <ul class="chips">
+        <li>Python</li><li>C++</li><li>C#</li><li>Kotlin</li><li>MLX</li><li>LoRA/QLoRA</li><li>TensorFlow</li><li>Keras</li><li>scikit-learn</li><li>Whisper</li><li>NumPy</li><li>Pandas</li><li>Matplotlib</li><li>ROUGE</li><li>Git</li><li>SQLite</li><li>WinUI 3</li><li>Jetpack Compose</li>
+      </ul>
+    </section>
+
+    <section class="goodbye" aria-label="Contact">
+      <h2>Say hello</h2>
+      <p>Open to internships — happy to share the paper, a demo, or references.</p>
+      <p class="connect">
+        <a href="mailto:adithya.ak@gmail.com">Email</a>
+        <a href="https://github.com/adityatheperson" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/aditya-kumar-uci" target="_blank" rel="noopener">LinkedIn</a>
+        <span>(925) 568-6825</span>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Aditya Kumar · Made with care in Fremont, CA · <a href="#top">Back to top</a></p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
